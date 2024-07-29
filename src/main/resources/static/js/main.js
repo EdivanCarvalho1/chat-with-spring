@@ -104,7 +104,6 @@ function onMessageReceived(payload) {
     messageArea.scrollTop = messageArea.scrollHeight;
 }
 
-
 function getAvatarColor(messageSender) {
     var hash = 0;
     for (var i = 0; i < messageSender.length; i++) {
